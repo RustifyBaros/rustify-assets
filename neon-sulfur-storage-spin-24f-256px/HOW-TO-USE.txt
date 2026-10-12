@@ -1,0 +1,10 @@
+Spin frames for neon-sulfur-storage: 24 frames, 256x256, transparent background.
+
+1. Upload the numbered PNGs somewhere that gives direct image links
+   (a GitHub repo, your website, an image host). Keep the file names as they are.
+2. In oxide/config/RustifyMenu.json, under the leaderboard prize you want to spin, set:
+     "Spin Frame URL ({frame} = 00, 01, ... - blank = no spin)": "https://YOUR-HOST/PATH/neon-sulfur-storage_{frame}.png"
+     "Spin Frame Count": 24
+3. Reload the plugin:  oxide.reload RustifyMenu
+
+contact-sheet.png shows every frame over a checkerboard so you can check the edges.
